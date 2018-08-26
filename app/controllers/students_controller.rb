@@ -9,7 +9,12 @@ class StudentsController < ApplicationController
   end
 
   def new
-    @student = Student.new
+    binding.pry
+    @student = Student.new(params)
+  end
+
+  def create
+    @student =
   end
 
   def create

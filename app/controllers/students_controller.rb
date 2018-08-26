@@ -13,7 +13,8 @@ class StudentsController < ApplicationController
   end
 
   def create
-binding.pry  end
+    binding.pry
+  end
 
   def create
   end

@@ -9,7 +9,7 @@ class StudentsController < ApplicationController
   end
 
   def new
-    @student = Student.new(params)
+    @student = Student.new
   end
 
   def create
